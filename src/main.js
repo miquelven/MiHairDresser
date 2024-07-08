@@ -4,9 +4,9 @@ import "./main.css";
 import App from "./App.vue";
 
 import { OhVueIcon, addIcons } from "oh-vue-icons";
-import { PxMenu } from "oh-vue-icons/icons";
+import { PxMenu, BiX } from "oh-vue-icons/icons";
 
-addIcons(PxMenu);
+addIcons(PxMenu, BiX);
 
 const app = createApp(App);
 
