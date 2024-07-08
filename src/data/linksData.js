@@ -6,21 +6,26 @@ const linksData = [
   },
   {
     id: 2,
+    text: "Benefícios",
+    href: "#beneficios",
+  },
+  {
+    id: 3,
     text: "Serviços",
     href: "#servicos",
   },
   {
-    id: 3,
+    id: 4,
     text: "Equipe",
     href: "#equipe",
   },
   {
-    id: 4,
+    id: 5,
     text: "Planos",
     href: "#planos",
   },
   {
-    id: 5,
+    id: 6,
     text: "Avaliações",
     href: "#avaliacoes",
   },

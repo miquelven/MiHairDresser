@@ -1,4 +1,4 @@
-const servicesData = [
+const advantageData = [
   {
     id: 1,
     icon: "bi-people-fill",
@@ -37,4 +37,4 @@ const servicesData = [
   },
 ];
 
-export default servicesData;
+export default advantageData;
