@@ -35,4 +35,6 @@ onUnmounted(() => {
       </div>
     </Container>
   </header>
+
+  <div v-if="menuFixed" class="h-28 w-full"></div>
 </template>
