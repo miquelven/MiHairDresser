@@ -9,7 +9,7 @@ const menuOpen = ref(false);
   <nav
     :class="`${
       menuOpen
-        ? ' bg-black/95 shadow-[-2px_0px_4px_#111] fixed right-0 top-0 h-screen w-5/12 flex items-center max-sm:w-2/3'
+        ? ' bg-[#0a131a] shadow-[-2px_0px_4px_#111] fixed right-0 top-0 h-screen w-5/12 flex items-center max-sm:w-2/3'
         : 'max-md:hidden'
     } `"
   >
