@@ -5,7 +5,7 @@ import imgBanner from "../../assets/imgs/banner.jpg";
 
 <template>
   <div
-    :class="`absolute  top-0 left-0 bg-cover bg-center h-screen w-full after:content-[''] after:inset-0 after:bg-black/75 after:absolute `"
+    :class="`absolute top-0 left-0 bg-cover bg-center h-screen w-full after:content-[''] after:inset-0 after:bg-black/75 after:absolute `"
     :style="`background-image: url(${imgBanner})`"
   >
     <Container>
@@ -26,4 +26,5 @@ import imgBanner from "../../assets/imgs/banner.jpg";
       </main>
     </Container>
   </div>
+  <div class="h-screen w-full"></div>
 </template>
