@@ -1,6 +1,6 @@
 <script setup>
-import Container from "../../Container/index.vue";
-import imgBanner from "../../../assets/imgs/banner.jpg";
+import Container from "../Container/index.vue";
+import imgBanner from "../../assets/imgs/banner.jpg";
 </script>
 
 <template>

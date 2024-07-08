@@ -1,6 +1,6 @@
 <script setup>
 import Header from "./components/ui/Header/index.vue";
-import Banner from "./components/ui/Banner/index.vue";
+import Banner from "./components/Banner/index.vue";
 </script>
 
 <template>
