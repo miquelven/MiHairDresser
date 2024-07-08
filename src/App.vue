@@ -1,5 +1,9 @@
-<script setup></script>
+<script setup>
+import Header from "./components/ui/Header/index.vue";
+import Banner from "./components/ui/Banner/index.vue";
+</script>
 
 <template>
-  <h1>Hello world</h1>
+  <Header />
+  <Banner />
 </template>
