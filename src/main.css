@@ -1,8 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #0c1821;
   color: #f2f2f2;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+}
+
+.carousel__prev,
+.carousel__next {
+  color: white !important;
+  padding: 8px !important;
+  transition: all ease 500ms;
+}
+
+.carousel__prev:hover,
+.carousel__next:hover {
+  background-color: #0a131a !important;
+  border-radius: 12px;
+}
+
+.carousel__pagination-button {
+  margin-top: 32px !important;
+}
+
+.carousel__pagination-button::after {
+  background: #fff5 !important;
+  width: 25px !important;
+  height: 5px !important;
+}
+
+.carousel__pagination-button--active::after {
+  background: white !important;
+}
+
+@media screen and (max-width: 640px) {
+  .carousel__prev,
+  .carousel__next {
+    color: white !important;
+    background-color: #0007 !important;
+    border-radius: 20px !important;
+  }
+
+  .carousel__prev:hover,
+  .carousel__next:hover {
+    background-color: #0009 !important;
+  }
 }
