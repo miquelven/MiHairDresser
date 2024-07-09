@@ -14,6 +14,14 @@ import {
   BiEmojiSmileFill,
   BiBagCheckFill,
   BiPersonWorkspace,
+  BiInstagram,
+  BiFacebook,
+  BiTwitter,
+  BiPinterest,
+  BiWhatsapp,
+  IoLocationSharp,
+  MdEmail,
+  BiArrowUp,
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -25,10 +33,21 @@ addIcons(
   BiHandThumbsUpFill,
   BiEmojiSmileFill,
   BiBagCheckFill,
-  BiPersonWorkspace
+  BiPersonWorkspace,
+  BiInstagram,
+  BiFacebook,
+  BiTwitter,
+  BiPinterest,
+  BiWhatsapp,
+  IoLocationSharp,
+  MdEmail,
+  BiArrowUp
 );
+
+import { MotionPlugin } from "@vueuse/motion";
 
 const app = createApp(App);
 
+app.use(MotionPlugin);
 app.component("v-icon", OhVueIcon);
 app.mount("#app");
