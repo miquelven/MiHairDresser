@@ -1,9 +1,9 @@
 <script setup>
 import Container from "../Container/index.vue";
-import SectionTitleContainer from "../SectionTitleContainer/index.vue";
-import SectionTitle from "../SectionTitle/index.vue";
-import SectionSubTitle from "../SectionSubTitle/index.vue";
-import SectionContentText from "../SectionContentText/index.vue";
+import SectionTitleContainer from "../SectionComponents/SectionTitleContainer/index.vue";
+import SectionTitle from "../SectionComponents/SectionTitle/index.vue";
+import SectionSubTitle from "../SectionComponents/SectionSubTitle/index.vue";
+import SectionContentText from "../SectionComponents/SectionContentText/index.vue";
 
 import servicesData from "../../data/servicesData";
 
