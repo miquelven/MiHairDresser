@@ -12,11 +12,17 @@ import imgBanner from "../../assets/imgs/banner.jpg";
       <main class="h-screen relative z-10 flex flex-col justify-center">
         <div class="flex flex-col gap-14">
           <h1
+            v-motion-slide-visible-once-right
+            :delay="500"
+            :duration="500"
             class="text-8xl font-bold w-2/3 leading-[108px] max-xl:text-7xl max-xl:leading-[88px] max-md:w-full max-sm:text-5xl max-sm:leading-[54px]"
           >
             Transforme Seu Visual.
           </h1>
           <h4
+            v-motion-slide-visible-once-right
+            :delay="700"
+            :duration="500"
             class="text-2xl w-1/2 leading-10 font-light max-xl:text-xl max-xl:leading-8 max-md:w-full max-sm:text-lg"
           >
             Descubra a Beleza em Você com Nossos Serviços de Cabeleireiro de

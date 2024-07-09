@@ -7,9 +7,12 @@ const menuOpen = ref(false);
 
 <template>
   <nav
+    v-motion-slide-visible-right
+    :duration="300"
+    class="transition-all duration-300"
     :class="`${
       menuOpen
-        ? ' bg-[#0a131a] shadow-[-2px_0px_4px_#111] fixed right-0 top-0 h-screen w-5/12 flex items-center max-sm:w-2/3'
+        ? '  bg-[#0a131a] shadow-[-2px_0px_4px_#111] fixed right-0 top-0 h-screen w-5/12 flex items-center max-sm:w-2/3'
         : 'max-md:hidden'
     } `"
   >
@@ -21,6 +24,7 @@ const menuOpen = ref(false);
       } `"
     >
       <li
+        @click="() => (menuOpen = false)"
         v-for="link in linksData"
         :key="link.id"
         class="relative font-medium after:transition-all after:duration-300 after:content-[''] after:w-0 after:h-[3px] after:rounded-md after:absolute after:bottom-0 after:left-0 after:bg-white hover:after:w-full hover:cursor-pointer hover:text-white"
@@ -36,7 +40,6 @@ const menuOpen = ref(false);
   <button
     :onclick="() => (menuOpen = !menuOpen)"
     class="hidden transition-all duration-300 px-2 hover:scale-105 hover:bg-white/10 hover:text-white hover:cursor-pointer max-md:block max-sm:px-1"
-    :class="`${menuOpen ? 'border-0' : 'border border-white/40'}`"
   >
     <template v-if="!menuOpen">
       <v-icon name="px-menu" class="w-11 h-11 max-sm:w-9 max-sm:h-9" />

@@ -9,12 +9,17 @@ import imgAbout from "../../assets/imgs/about.png";
 
 <template>
   <Container>
-    <section id="sobre" class="h-screen w-full pt-32 max-sm:pt-20">
+    <section
+      id="sobre"
+      class="-scroll-mt-20 h-screen w-full pt-32 max-sm:pt-20 max-sm:-scroll-mt-10"
+    >
       <div
         class="w-full h-[80vh] grid grid-cols-2 justify-center items-center gap-32 max-xl:gap-16 max-xl:h-[85vh] max-lg:grid-cols-1 max-lg:flex max-lg:flex-col-reverse"
       >
-        <div class="bg-red-400 w-full h-full">
+        <div class="w-full h-full">
           <img
+            v-motion-fade-visible-once
+            :delay="1200"
             :src="imgAbout"
             alt="Imagem do ambiente"
             class="h-full object-cover max-lg:h-80 max-lg:w-full max-sm:h-60"
@@ -41,7 +46,11 @@ import imgAbout from "../../assets/imgs/about.png";
             acolhedor e sofisticado onde você pode relaxar e se sentir especial.
           </SectionContentText>
 
-          <div class="text-end max-lg:hidden">
+          <div
+            v-motion-fade-visible-once
+            :delay="1000"
+            class="text-end max-lg:hidden"
+          >
             <v-icon name="bi-scissors" class="w-20 h-20 text-white/80" />
           </div>
         </div>
