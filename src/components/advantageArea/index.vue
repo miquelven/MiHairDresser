@@ -11,7 +11,7 @@ import advantageData from "../../data/advantageData";
   <Container>
     <section
       id="beneficios"
-      class="scroll-mt-10 flex flex-col text-center gap-9 mt-32 max-sm:mt-80 max-sm:-scroll-mt-20"
+      class="scroll-mt-28 flex flex-col text-center gap-9 mt-44 max-sm:mt-80 max-sm:-scroll-mt-20"
     >
       <SectionTitleContainer>
         <SectionTitle> Benefícios </SectionTitle>

@@ -15,13 +15,13 @@ import CarouselContainer from "../CarouselContainer/index.vue";
 
 <template>
   <div
-    class="mt-60 h-screen pt-1 relative z-10 bg-no-repeat bg-cover after:content-[''] after:inset-0 after:bg-black/75 after:absolute after:z-20 max-lg:p-0 max-lg:mt-40"
+    class="my-60 min-h-screen py-10 relative z-10 bg-no-repeat bg-cover after:content-[''] after:inset-0 after:bg-black/75 after:absolute after:z-20 max-lg:p-0 max-lg:mt-40"
     :style="`background-image: url(${bgPricing}) `"
   >
     <Container>
       <section
         id="planos"
-        class="scroll-mt-20 relative z-30 flex flex-col gap-9 justify-center items-center text-center mt-32 max-sm:mt-48 max-sm:-scroll-mt-40"
+        class="scroll-mt-32 relative z-30 flex flex-col gap-9 justify-center items-center text-center mt-32 max-sm:mt-48 max-sm:scroll-mt-10"
       >
         <SectionTitleContainer class="max-lg:mt-10">
           <SectionTitle> Ofertas e Preços </SectionTitle>

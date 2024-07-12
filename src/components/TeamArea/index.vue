@@ -16,7 +16,7 @@ import CarouselContainer from "../CarouselContainer/index.vue";
   <Container>
     <section
       id="equipe"
-      class="scroll-mt-20 flex flex-col gap-10 text-center mt-72 max-sm:mt-48 max-sm:gap-7 max-sm:-scroll-mt-28"
+      class="scroll-mt-28 flex flex-col gap-10 text-center my-72 max-sm:mt-48 max-sm:gap-7 max-sm:scroll-mt-20"
     >
       <SectionTitleContainer>
         <SectionTitle> Equipe </SectionTitle>

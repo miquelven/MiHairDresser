@@ -14,7 +14,7 @@ import { Slide } from "vue3-carousel";
   <Container>
     <section
       id="avaliacoes"
-      class="scroll-mt-20 flex flex-col gap-7 text-center mt-40 max-sm:mt-48 max-sm:-scroll-mt-56"
+      class="scroll-mt-28 flex flex-col gap-7 text-center mt-40 max-sm:mt-48 max-sm:scroll-mt-16"
     >
       <SectionTitleContainer class="max-lg:mt-10">
         <SectionTitle> Avaliações </SectionTitle>
