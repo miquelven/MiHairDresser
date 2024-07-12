@@ -74,12 +74,18 @@ import socialMediaData from "../../../data/socialMediaData";
           </ul>
         </div>
       </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48393.29410298498!2d-74.09234119471238!3d40.70522735350712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a35f733fa5%3A0xacad259fa097e07a!2sMEY%20New%20York!5e0!3m2!1spt-PT!2sbr!4v1720784681943!5m2!1spt-PT!2sbr"
+        class="h-52 w-full mt-14 max-sm:h-44"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
     </Container>
 
     <div
       v-motion-fade-visible-once
       :delay="800"
-      class="mt-20 w-full border-t-[1px] border-white/40 h-14 flex justify-center items-center"
+      class="mt-10 w-full border-t-[1px] border-white/40 h-14 flex justify-center items-center"
     >
       <p class="text-sm">
         Desenvolvido por
