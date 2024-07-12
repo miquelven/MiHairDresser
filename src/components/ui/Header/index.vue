@@ -2,7 +2,7 @@
 import Container from "../../Container/index.vue";
 import Menu from "./Menu/index.vue";
 
-import logoImg from "../../../assets/imgs/logo.png";
+import logoImg from "../../../assets/imgs/logo.webp";
 
 import { ref, onMounted, onUnmounted } from "vue";
 

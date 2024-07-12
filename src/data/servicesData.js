@@ -1,6 +1,6 @@
-import manCutImg from "../assets/imgs/manCut.png";
-import womenCutImg from "../assets/imgs/womenCut.png";
-import barberImg from "../assets/imgs/barber.png";
+import manCutImg from "../assets/imgs/manCut.webp";
+import womenCutImg from "../assets/imgs/womenCut.webp";
+import barberImg from "../assets/imgs/barber.webp";
 
 const servicesData = [
   {

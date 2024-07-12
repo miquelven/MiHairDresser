@@ -5,7 +5,7 @@ import SectionTitle from "../SectionComponents/SectionTitle/index.vue";
 import SectionSubTitle from "../SectionComponents/SectionSubTitle/index.vue";
 import SectionContentText from "../SectionComponents/SectionContentText/index.vue";
 
-import bgPricing from "../../assets/imgs/bgPricing.png";
+import bgPricing from "../../assets/imgs/bgPricing.webp";
 
 import pricesData from "../../data/pricesData";
 

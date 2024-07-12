@@ -1,6 +1,6 @@
-import womenHairdresser from "../assets/imgs/womenHairdresser.png";
-import hairdresser from "../assets/imgs/hairdresser.png";
-import barber from "../assets/imgs/barberTeam.png";
+import womenHairdresser from "../assets/imgs/womenHairdresser.webp";
+import hairdresser from "../assets/imgs/hairdresser.webp";
+import barber from "../assets/imgs/barberTeam.webp";
 
 const teamData = [
   {

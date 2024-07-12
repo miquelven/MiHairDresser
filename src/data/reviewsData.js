@@ -1,9 +1,9 @@
-import reviewImg1 from "../assets/imgs/review1.png";
-import reviewImg2 from "../assets/imgs/review2.png";
-import reviewImg3 from "../assets/imgs/review3.png";
-import reviewImg4 from "../assets/imgs/review4.png";
-import reviewImg5 from "../assets/imgs/review5.png";
-import reviewImg6 from "../assets/imgs/review6.jpg";
+import reviewImg1 from "../assets/imgs/review1.webp";
+import reviewImg2 from "../assets/imgs/review2.webp";
+import reviewImg3 from "../assets/imgs/review3.webp";
+import reviewImg4 from "../assets/imgs/review4.webp";
+import reviewImg5 from "../assets/imgs/review5.webp";
+import reviewImg6 from "../assets/imgs/review6.webp";
 
 const reviewsData = [
   {

@@ -4,7 +4,7 @@ import SectionTitle from "../SectionComponents/SectionTitle/index.vue";
 import SectionSubTitle from "../SectionComponents/SectionSubTitle/index.vue";
 import SectionContentText from "../SectionComponents/SectionContentText/index.vue";
 import SectionTitleContainer from "../SectionComponents/SectionTitleContainer/index.vue";
-import imgAbout from "../../assets/imgs/about.png";
+import imgAbout from "../../assets/imgs/about.webp";
 </script>
 
 <template>
