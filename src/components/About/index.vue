@@ -11,7 +11,7 @@ import imgAbout from "../../assets/imgs/about.webp";
   <Container>
     <section
       id="sobre"
-      class="mb-72 h-screen w-full pt-32 max-sm:pt-20 max-sm:-scroll-mt-10"
+      class="mb-72 h-screen w-full pt-32 max-sm:pt-20 max-sm:scroll-mt-24"
     >
       <div
         class="w-full h-[80vh] grid grid-cols-2 justify-center items-center gap-32 max-xl:gap-16 max-xl:h-[85vh] max-lg:grid-cols-1 max-lg:flex max-lg:flex-col-reverse"
